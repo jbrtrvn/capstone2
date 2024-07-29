@@ -28,7 +28,9 @@ app.use(express.urlencoded({extended: true}));
 
 
 const corsOptions = {
-	origin: ["https://capstone3-iota-ebon.vercel.app"],
+	origin: ["https://capstone3-iota-ebon.vercel.app", 
+		"capstone3-git-master-juberts-projects.vercel.app", 
+		"capstone3-f77h66rh7-juberts-projects.vercel.app"],
 	credentials: true,
 	optionsSuccessStatus: 200
 }
