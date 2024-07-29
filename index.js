@@ -28,7 +28,7 @@ app.use(express.urlencoded({extended: true}));
 
 
 const corsOptions = {
-	origin: ["http://localhost:5173"],
+	origin: ["capstone3-iota-ebon.vercel.app"],
 	credentials: true,
 	optionsSuccessStatus: 200
 }
